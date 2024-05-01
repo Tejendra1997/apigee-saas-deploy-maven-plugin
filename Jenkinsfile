@@ -7,9 +7,14 @@ pipeline {
     stage("Build_And_Deploy") {
       steps {
         script {
-          echo "pwd $(pwd)"
+          echo "pwd..."
+          pwd
+          ls -l
+          
           cd ./samples/forecastweatherapi-recommended/src/gateway/forecastweatherapi/
-          echo "pwd $(pwd)"
+          ls -l
+          echo "pwd...."
+          pwd
 
           mvn --version
         }
