@@ -47,3 +47,7 @@ f. update - It will update the deployed revision .  This is similar to import wi
 
 ## More Documentation
 * [Ask The Expert Presentation](https://community.apigee.com/learn/know-ask-expert-and-office-hours)
+
+
+##Teja
+To Create new API proxy bundle ==> mvn install -Ptest -Doptions=override

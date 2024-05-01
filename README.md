@@ -371,3 +371,7 @@ People Involved
 ------------------------
 
 The plugin is initially developed by [Santany Dey](sdey@apigee.com). With major contributions from [Sai Saran Vaidyanathan](https://github.com/ssvaidyanathan), [Madhan Sadasivam](https://github.com/msadasivam). The plugin is open sourced by [Priyanky Thomas](priyanky@apigee.com). 
+
+
+##Teja
+To Create new API proxy bundle ==> mvn install -Ptest -Doptions=override
