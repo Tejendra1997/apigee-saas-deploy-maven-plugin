@@ -9,10 +9,10 @@ pipeline {
         script {
           echo "pwd..."
           pwd
-          ls -l
+          // ls -l
           
           cd ./samples/forecastweatherapi-recommended/src/gateway/forecastweatherapi/
-          ls -l
+          // ls -l
           echo "pwd...."
           pwd
 
