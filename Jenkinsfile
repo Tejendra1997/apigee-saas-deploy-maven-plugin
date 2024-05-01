@@ -16,7 +16,7 @@ pipeline {
           echo "pwd...."
           pwd
 
-          mvn --version
+          // mvn --version
         }
       }
     }
